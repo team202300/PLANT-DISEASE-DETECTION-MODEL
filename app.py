@@ -116,4 +116,7 @@ def health():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use environment variable to control debug mode
+    # Set FLASK_DEBUG=1 in development, leave unset in production
+    debug_mode = os.environ.get('FLASK_DEBUG', '0') == '1'
+    app.run(debug=debug_mode, host='0.0.0.0', port=5000)

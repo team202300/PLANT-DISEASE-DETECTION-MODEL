@@ -63,6 +63,11 @@ python app.py
 
 Then open your browser and navigate to `http://localhost:5000`
 
+**Note**: For development, you can enable debug mode by setting the environment variable:
+```bash
+FLASK_DEBUG=1 python app.py
+```
+
 The web interface allows you to:
 - Upload plant leaf images
 - Get instant disease predictions
