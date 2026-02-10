@@ -106,15 +106,14 @@ class PlantDiseaseModel:
             self.build_model()
         return self.model.summary()
     
-    def train(self, train_data, validation_data, epochs=50, batch_size=32, callbacks=None):
+    def train(self, train_data, validation_data, epochs=50, callbacks=None):
         """
         Train the model on provided data.
         
         Args:
-            train_data: Training dataset
-            validation_data: Validation dataset
+            train_data: Training dataset (data generator or dataset)
+            validation_data: Validation dataset (data generator or dataset)
             epochs (int): Number of training epochs
-            batch_size (int): Batch size for training
             callbacks (list): List of Keras callbacks
             
         Returns:
@@ -142,7 +141,6 @@ class PlantDiseaseModel:
             train_data,
             validation_data=validation_data,
             epochs=epochs,
-            batch_size=batch_size,
             callbacks=callbacks
         )
         
@@ -225,7 +223,7 @@ DISEASE_CLASSES = [
     'Grape___Esca_(Black_Measles)',
     'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)',
     'Grape___healthy',
-    'Orange___Haunglongbing_(Citrus_greening)',
+    'Orange___Huanglongbing_(Citrus_greening)',
     'Peach___Bacterial_spot',
     'Peach___healthy',
     'Pepper,_bell___Bacterial_spot',

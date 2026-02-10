@@ -21,7 +21,7 @@ The model can detect diseases in the following plants:
 - **Cherry**: Powdery mildew, Healthy
 - **Corn (Maize)**: Cercospora leaf spot, Common rust, Northern Leaf Blight, Healthy
 - **Grape**: Black rot, Esca, Leaf blight, Healthy
-- **Orange**: Haunglongbing (Citrus greening)
+- **Orange**: Huanglongbing (Citrus greening)
 - **Peach**: Bacterial spot, Healthy
 - **Pepper (Bell)**: Bacterial spot, Healthy
 - **Potato**: Early blight, Late blight, Healthy

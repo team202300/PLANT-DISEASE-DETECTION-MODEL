@@ -51,8 +51,7 @@ def train_model(train_dir, val_dir, output_dir='saved_models',
     history = model.train(
         train_data=train_gen,
         validation_data=val_gen,
-        epochs=epochs,
-        batch_size=batch_size
+        epochs=epochs
     )
     
     # Save model
