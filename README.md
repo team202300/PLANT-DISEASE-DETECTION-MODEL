@@ -224,9 +224,9 @@ plant-disease-detection/
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+**Name**
+- GitHub: [@Lakhdar Ahmed Khalil](https://github.com/team202300)
+- LinkedIn: [Ahmed Khalil Lakhdar](https://www.linkedin.com/in/ahmed-khalil-lakhdar-b61966379/)
 
 ## 📄 License
 
